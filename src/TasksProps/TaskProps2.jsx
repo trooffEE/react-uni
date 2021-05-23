@@ -10,7 +10,7 @@ const TaskProps2 = () => {
       <Nav
         navList={[
           { title: "Новости", link: "/news" },
-          { title: "Неновости", link: "/notNews" },
+          { title: "Не новости", link: "/notNews" },
         ]}
       />
       <Footer />
