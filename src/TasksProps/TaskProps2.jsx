@@ -21,7 +21,7 @@ const TaskProps2 = () => {
 // Этот компонент принимает название сайта + ссылку на картинку
 const Header = ({ title, imageUrl }) => {
   return (
-    <header class="header">
+    <header className="header">
       <img src={imageUrl} alt="" />
       <p>{title}</p>
     </header>
@@ -42,7 +42,7 @@ const Footer = () => {
     const date = new Date();
 
   return (
-    <footer class="footer">
+    <footer className="footer">
       <small>@copyright все права защищены {date.getFullYear()} год</small>
     </footer>
   );

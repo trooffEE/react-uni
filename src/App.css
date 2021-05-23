@@ -55,6 +55,10 @@
     padding: 8px 12px;
 }
 
+.stars img {
+    width: 30px;
+}
+
 .nav-2 {
     display: flex;
     column-gap: 20px;

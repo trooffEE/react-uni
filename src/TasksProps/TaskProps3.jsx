@@ -77,7 +77,7 @@ const Card = ({ imgUrl, children }) => {
     <div className="card">
       <img src={imgUrl} alt="bruh" />
       <div>
-        <p class="card-text">{children}</p>
+        {children}
       </div>
     </div>
   );
