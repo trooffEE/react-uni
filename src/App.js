@@ -5,6 +5,8 @@ import TaskProps3 from "./TasksProps/TaskProps3";
 import TaskProps4 from "./TasksProps/TaskProps4";
 import TaskProps5 from "./TasksProps/TaskProps5";
 import TaskState2 from "./TasksState/TaskState2";
+import TaskState5 from "./TasksState/TaskState5";
+import TaskState6 from "./TasksState/TaskState6";
 
 function App() {
   return (
@@ -44,6 +46,10 @@ function App() {
         <div>
           <h4> Задание 5</h4>
           <TaskState5 />
+        </div>
+        <div>
+          <h4> Задание 6</h4>
+          <TaskState6 />
         </div>
       </div>
     </div>
